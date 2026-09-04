@@ -1,0 +1,30 @@
+{
+  "name": "408exam",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "考研备考助手：408/数学二/英语二/政治 真题库+练习题库、随机练习、错题本(遗忘曲线)、模拟考试、闪卡、番茄钟、统计打卡",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "echarts": "^5.6.0",
+    "echarts-for-react": "^3.0.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.23.13",
+    "typescript": "~5.9.2",
+    "vite": "^7.0.0"
+  }
+}
